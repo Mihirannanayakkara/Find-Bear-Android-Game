@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreboardActivity"
+    android:background="@color/lightblue">
+
+    <Button
+        android:id="@+id/replayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY AGAIN"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="90dp"
+        android:backgroundTint="@color/light"
+        android:layout_marginTop="54dp"
+        android:onClick="replayGame" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/high" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="50dp"
+         />
+
+
+</RelativeLayout>

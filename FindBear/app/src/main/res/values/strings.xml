@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Find Bear</string>
+    <string name="score_0">Score: 0</string>
+    <string name="time_30">Time: 60</string>
+    <string name="how_to_play_instructions">
+    Welcome to the Find Bear game! Your objective is to find and tap on the bear as it randomly appears from the holes.
+    Bears will pop up randomly from different holes on the screen.
+    Tap on a bear to score points.
+    Beware of tapping empty holes, as it will reduce your score.
+        Tap on the screen to whack the bear.
+     Whacking a bear adds points to your score.
+    Whacking an empty hole deducts points.
+
+    Have fun playing and try to achieve the highest score!
+</string>
+
+</resources>

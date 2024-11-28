@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="55dp"
+            android:text="@string/score_0"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/time_30"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <!-- Row 1 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Hole 1 -->
+        <ImageView
+            android:id="@+id/hole1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+
+        <!-- Hole 2 -->
+        <ImageView
+            android:id="@+id/hole2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+
+        <!-- Hole 3 -->
+        <ImageView
+            android:id="@+id/hole3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <!-- Row 2 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Hole 4 -->
+        <ImageView
+            android:id="@+id/hole4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+
+        <!-- Hole 5 -->
+        <ImageView
+            android:id="@+id/hole5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+
+        <!-- Hole 6 -->
+        <ImageView
+            android:id="@+id/hole6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <!-- Row 3 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Hole 7 -->
+        <ImageView
+            android:id="@+id/hole7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+
+        <!-- Hole 8 -->
+        <ImageView
+            android:id="@+id/hole8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+
+        <!-- Hole 9 -->
+        <ImageView
+            android:id="@+id/hole9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <!-- Row 4 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Hole 10 -->
+        <ImageView
+            android:id="@+id/hole10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+
+        <!-- Hole 11 -->
+        <ImageView
+            android:id="@+id/hole11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+
+        <!-- Hole 12 -->
+        <ImageView
+            android:id="@+id/hole12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hole"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <!-- Score and Timer TextViews -->
+
+
+
+
+    <!-- High Scores TextView (Clickable) -->
+
+
+
+</LinearLayout>

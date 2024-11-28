@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreboardActivity"
+    android:background="@color/lightblue">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/high" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="50dp"
+        />
+
+
+</RelativeLayout>

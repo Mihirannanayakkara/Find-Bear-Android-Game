@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/lightblue">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="383dp"
+        android:layout_height="310dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="99dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/play"
+        android:text="Play Game" />
+
+    <Button
+        android:id="@+id/highScoresButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Scores"
+        android:textSize="28sp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/red"
+       />
+
+    <TextView
+        android:id="@+id/howtoplaybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How To Play"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
